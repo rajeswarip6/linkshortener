@@ -30,7 +30,7 @@ export default function RootLayout({
       className={`dark ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <ClerkProvider>
+        <ClerkProvider appearance={{ baseTheme: "dark" }}>
           <header className="border-b border-border">
             <div className="flex items-center justify-between px-4 py-3">
               <div className="flex gap-2">
