@@ -4,6 +4,8 @@ import { useAuth } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { Link2, Zap, BarChart3, Lock, Share2, Clock } from "lucide-react";
 import { SignInButton, SignUpButton } from "@clerk/nextjs";
 
