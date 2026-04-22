@@ -82,6 +82,7 @@ Before marking work as complete:
 
 ❌ **Never**:
 - Skip reading the `/docs` instructions for your task (this is mandatory)
+- Use `middleware.ts` (deprecated in Next.js 16.2.4; use `proxy.ts` instead)
 - Use `var` declarations
 - Write raw SQL queries (use Drizzle ORM)
 - Forget `"use client"` directive on interactive components
